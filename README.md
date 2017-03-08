@@ -6,7 +6,7 @@ leaning cgo
 
         go get -d github.com/jrdeng/hello-cgo
 
-2. build 3rd-party C code (as dynamically linked library)
+2. build the C code (as dynamically linked library)
 
         cd $GOPATH/src/github.com/jrdeng/hello-cgo/cwrapper && make
 
@@ -18,5 +18,6 @@ leaning cgo
     or
 
         go install github.com/jrdeng/hello-cgo
+        $GOPATH/bin/hello-cgo
 
 
